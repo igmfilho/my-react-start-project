@@ -19,6 +19,7 @@ const ExpenseList = (props) => {
   const [filteredYear, setFilteredYear] = useState("2022");
   const filterChangeHandler = (selectedYear) => {
     setFilteredYear(selectedYear);
+    console.log('Year: ' + selectedYear);
   }
 
   return (
